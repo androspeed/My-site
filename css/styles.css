@@ -1,0 +1,204 @@
+/* MAIN */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Kalam', handwriting;
+}
+
+h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+a {
+  margin-left: 10px;
+  margin-right: 20px;
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+
+/* CLASSES */
+
+
+/* Divs */
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #FFD384;
+}
+
+.middle-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bottom-container {
+  background-color: #FFD384;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+
+
+/* Pictures */
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.allosaurus {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.sls {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.spinosaurus {
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+}
+
+
+
+
+/* Button */
+
+.btn {
+   margin-top: 25px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 20px;
+   background-color: #2FD21B;
+   -webkit-box-shadow: .5px .5px 10px 0 #000000;
+   -moz-box-shadow: .5px .5px 10px 0 #000000;
+   box-shadow: .5px .5px 10px 0 #000000;
+   text-shadow: .5px .5px 10px #000000;
+   border: solid #337FED .5px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #FFAE00 0;
+   background: #FFAE00;
+   background-image: -webkit-linear-gradient(top, #FFAE00, #FFAE00);
+   background-image: -moz-linear-gradient(top, #FFAE00, #FFAE00);
+   background-image: -ms-linear-gradient(top, #FFAE00, #FFAE00);
+   background-image: -o-linear-gradient(top, #FFAE00, #FFAE00);
+   background-image: -webkit-gradient(to bottom, #FFAE00, #FFAE00);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+
+
+/* Hr */
+
+.container-dividers {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+
+
+
+/* Headings */
+
+.touch-h2 {
+  padding-top: 25px;
+}
+
+.skills-h2 {
+  padding-top: 35px;
+}
+
+.i-have-got-a-gmail {
+  margin-top: 20px;
+}
+
+
+
+/* Spans */
+
+.pro {
+  text-decoration: underline;
+}
+
+
+
+
+
+/* Paragraphs */
+
+.programmer {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+}
+
+.button-description {
+  margin-top: 40px;
+}
+
+.p-2 {
+  padding-bottom: 25px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
